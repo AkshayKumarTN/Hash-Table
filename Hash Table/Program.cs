@@ -19,6 +19,9 @@ namespace Hash_Table
             }
             Operations operation = new Operations();
             operation.Frequency(hash);
+            Console.WriteLine();
+            operation.Remove(hash, "avoidable");
+
         }
     }
 }
